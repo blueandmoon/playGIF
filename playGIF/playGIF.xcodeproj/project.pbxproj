@@ -15,6 +15,8 @@
 		C05662281CFE8658007405A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05662261CFE8658007405A8 /* LaunchScreen.storyboard */; };
 		C05662331CFE8658007405A8 /* playGIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05662321CFE8658007405A8 /* playGIFTests.m */; };
 		C056623E1CFE8658007405A8 /* playGIFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C056623D1CFE8658007405A8 /* playGIFUITests.m */; };
+		C05662501CFE8EA8007405A8 /* LGGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = C056624F1CFE8EA8007405A8 /* LGGifView.m */; };
+		C05662541CFEB4A4007405A8 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = C05662531CFEB4A4007405A8 /* 0.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C05662391CFE8658007405A8 /* playGIFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playGIFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C056623D1CFE8658007405A8 /* playGIFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playGIFUITests.m; sourceTree = "<group>"; };
 		C056623F1CFE8658007405A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C056624E1CFE8EA8007405A8 /* LGGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGifView.h; sourceTree = "<group>"; };
+		C056624F1CFE8EA8007405A8 /* LGGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGifView.m; sourceTree = "<group>"; };
+		C05662531CFEB4A4007405A8 /* 0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				C056621C1CFE8658007405A8 /* AppDelegate.m */,
 				C056621E1CFE8658007405A8 /* ViewController.h */,
 				C056621F1CFE8658007405A8 /* ViewController.m */,
+				C056624E1CFE8EA8007405A8 /* LGGifView.h */,
+				C056624F1CFE8EA8007405A8 /* LGGifView.m */,
+				C05662531CFEB4A4007405A8 /* 0.gif */,
 				C05662211CFE8658007405A8 /* Main.storyboard */,
 				C05662241CFE8658007405A8 /* Assets.xcassets */,
 				C05662261CFE8658007405A8 /* LaunchScreen.storyboard */,
@@ -202,6 +210,7 @@
 		C056620D1CFE8658007405A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LG;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ligen;
 				TargetAttributes = {
@@ -245,6 +254,7 @@
 			files = (
 				C05662281CFE8658007405A8 /* LaunchScreen.storyboard in Resources */,
 				C05662251CFE8658007405A8 /* Assets.xcassets in Resources */,
+				C05662541CFEB4A4007405A8 /* 0.gif in Resources */,
 				C05662231CFE8658007405A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +282,7 @@
 			files = (
 				C05662201CFE8658007405A8 /* ViewController.m in Sources */,
 				C056621D1CFE8658007405A8 /* AppDelegate.m in Sources */,
+				C05662501CFE8EA8007405A8 /* LGGifView.m in Sources */,
 				C056621A1CFE8658007405A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +509,7 @@
 				C05662441CFE8658007405A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C05662451CFE8658007405A8 /* Build configuration list for PBXNativeTarget "playGIFTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +518,7 @@
 				C05662471CFE8658007405A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C05662481CFE8658007405A8 /* Build configuration list for PBXNativeTarget "playGIFUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				C056624A1CFE8658007405A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
