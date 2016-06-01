@@ -10,7 +10,5 @@
 
 @interface ViewController : UIViewController
 
-- (void)loadData:(NSData *)data;
-
 @end
 
